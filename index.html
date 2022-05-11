@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Image-Gallery</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-container">
+                    <div class="header__logo-box">
+                        <h2 class="header__logo">devFariz</h2>
+                    </div>
+                    <div class="search-box">
+                        <input autocomplete="false" class="search-box__input" type="text" id="input__text" placeholder="Find Images...">
+                        <i onclick="loadImg()" class="fa-solid fa-magnifying-glass"></i>
+                        <i class="delete fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="images">
+                <div class="container">
+                    <div class="images-container">
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer__left">
+                        <span>©</span>
+                        <span>2022</span>
+                        <a href="https://github.com/DevFariz" class="github__link">github</a>
+                    </div>
+                    <div class="footer__right">
+                        <a href="https://rs.school/js-stage0/" class="footer__right-link">Rolling Scopes School</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
